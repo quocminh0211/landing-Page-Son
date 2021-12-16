@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.container 
+{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.3),transparent), url(images/12SON\ DIAMOND.png);
+    background-size: contain;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+}
+
+nav
+{
+ display: flex;
+ width: 100%;
+ align-items: center;
+ flex-wrap: wrap;
+ padding: 5px 0;
+}
+
+nav ul 
+{
+    flex: 1;
+    text-align: right;
+    padding-right: 30px;
+}
+
+nav ul li 
+{
+ display: inline-block;
+ list-style: none;
+ margin: 10 30px;
+}
+
+nav ul li a 
+{
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    padding: 0 25px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+nav ul li a::after 
+{
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    transition: width 0.3s;
+}
+
+nav ul li a:hover::after 
+{
+    width: 50%;
+}
+
+.logo
+{
+ width: 150px;
+ height: 100px;
+ cursor: pointer;
+}
+
+.cart-icon
+{
+ width: 30px;
+ cursor: pointer;
+}
+
+.text-box 
+{
+ color: #a2f7fa;
+ position: absolute;
+ bottom: 8%;
+}
+
+.text-box p 
+{
+    background: -webkit-linear-gradient(#fff8f8, #a2f7fa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.text-box h1 
+{
+    font-family: 'Libre Baskerville', serif;   
+    font-size: 177px;
+    line-height: 160px;
+    margin-left: -10px;
+    color: transparent;
+    -webkit-text-stroke: 1px #a2f7fa;
+    background: url(images/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 15s linear infinite;
+    font-weight: 400;
+}
+@keyframes back {
+    100%{
+        background-position: 2000px 0;
+        background-color: rgb(5, 5, 5);
+    }
+}
+
+.text-box h3 
+{
+    background: -webkit-linear-gradient(#fff8f8, #a2f7fa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 37px;
+    font-weight: 600; 
+}
+
+.row {
+    padding-top: 20px;
+}
+.footer-social-icons {
+    padding-top: 35px;
+}
+
+.text-box row 
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.text-box a 
+{
+    background: -webkit-linear-gradient(#fff8f8, #a2f7fa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 2px solid #fff;
+    align-items: center;
+    font-weight: 600;
+}
+
+.text-box a span 
+{    
+    font-size: 30px;
+    line-height: 15px;
+    margin-left: 5px;
+}
+
+.text-box span {
+    background: -webkit-linear-gradient(#fff8f8, #a2f7fa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.social-icons
+{
+    position: absolute;
+    right: 5%;
+    bottom: 8%;    
+}
+
+.social-icons img 
+{
+    width: 25px;
+    display: block;
+    margin: 25px 5px;
+}
+
+/* About us */
+.container-about-us 
+{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+    background-image: url("images/background-footer.png");
+}
+.about-us-content{
+    display: flex;
+}
+
+.content-about-us{
+    width: 50%;
+    text-align: center;
+}
+
+.container-feedback-us{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    padding: 16px 8%;
+    position: relative;
+    background-image: url(images/background-footer.png);
+}
+
+.content-about-us h1 {
+    font-family: 'Meow Script', cursive;
+    font-size: 97px;
+    background: -webkit-linear-gradient(#fff8f8, #e0ecec);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.content-bonus {
+    text-align: -webkit-center;
+}
+.image-about-us {
+    width: 50%; 
+}
+
+.image-about-us1 {
+  width: 80%;
+}
+.image-about-us1 img {
+    padding: 5px;
+}
+
+
+.image-about-us img {
+    padding: 5px;
+}
+
+/*Products */
+.container-products-son-us {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+    background-image: url(images/background-footer.png);
+}
+.container-products
+{
+    width: 100%;
+    height: 57vh;
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+    background-color: black;
+}
+.container-products-1
+{
+    width: 100%;
+    height: 57vh;
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+   
+}
+.container-products-2
+{
+    width: 100%;
+    height: 57vh;
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+    background-color: black;
+}
+.container-products-3
+{
+    width: 100%;
+    height: 57vh;
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+   
+}
+.text-color-products {
+    color: white;
+    padding-bottom: 10px;
+}
+/* Footer */
+.container-footer
+{
+    padding-top: 10px;
+    width: 100%;
+    height: 50vh;
+    background-image: url("images/background-footer.png");
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+    text-align: center;
+    
+}
+.logo-footer
+{
+ width: 150px;
+ cursor: pointer;
+}
+.text-box-footer 
+{
+ color: #fff;
+ position: absolute;
+ padding-top: 20px;
+}
+
+.text-box-footer p 
+{
+ font-family: 'Libre Baskerville', serif;
+ font-size: 55px;
+ font-weight: 400;
+ color: transparent;
+ -webkit-text-stroke: 1px #fff;
+ background: url(images/back.png);
+ -webkit-background-clip: text;
+ background-position: 0 0;
+ animation: back 10s linear infinite;
+}
+
+.text-box-footer h1 {
+ font-size: 25px;
+ font-weight: 400;
+ color: transparent;
+ -webkit-text-stroke: 1px #fff;
+ background: url(images/back.png);
+ -webkit-background-clip: text;
+ background-position: 0 0;
+ animation: back 10s linear infinite;
+}
+
+.iframe-maps
+{
+  width: 40%;
+  height: 70%;
+  float: right;
+  cursor: pointer; 
+  padding: 10px;
+}
+.iframe-maps iframe {
+    border-radius: 25px;
+    box-shadow: #fff 2px;
+}
+
+.text-box-footer a 
+{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 2px solid #fff;
+    align-items: center;
+}
